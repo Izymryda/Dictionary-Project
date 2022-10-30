@@ -14,6 +14,13 @@ export default function App() {
         </main>
         <footer className="App-footer">
           <small>Coded by Tania Slotvinska</small>
+          <br />
+          <b>
+            The terrorist country Russia constantly bombards the energy
+            infrastructure of my country. Sometimes we don't have electricity
+            for 2-3 days. Please, I will complete my project as soon as I have
+            the opportunity and electricity.
+          </b>
         </footer>
       </div>
     </div>
