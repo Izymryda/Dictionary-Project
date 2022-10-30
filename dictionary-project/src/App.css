@@ -1,0 +1,12 @@
+.App {
+  padding: 0;
+  margin: 0;
+}
+.App-header {
+  margin: 20px 0;
+}
+.App-logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+}

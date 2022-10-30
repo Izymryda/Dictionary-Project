@@ -1,13 +1,13 @@
 import logo from "./logo.png";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
+      <header className="App-header">
+        <img src={logo} alt="logo" className="App-logo img-fluid"></img>
+      </header>
       Hello
-      <img src={logo} alt="logo" className="App-logo img-fluid"></img>
     </div>
   );
 }
-
-export default App;
