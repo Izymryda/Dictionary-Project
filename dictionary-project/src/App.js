@@ -13,7 +13,10 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Tania Slotvinska</small>
+          <small>Coded by Tania Slotvinska | </small>{" "}
+          <a href="https://github.com/Izymryda/Dictionary-Project/tree/master/dictionary-project">
+            GitHub
+          </a>
           <br />
           <b>
             The terrorist country Russia constantly bombards the energy
