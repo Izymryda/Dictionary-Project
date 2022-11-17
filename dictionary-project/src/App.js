@@ -21,8 +21,8 @@ export default function App() {
           <b>
             The terrorist country Russia constantly bombards the energy
             infrastructure of my country. Sometimes we don't have electricity
-            for 2-3 days. Please, I will complete my project as soon as I have
-            the opportunity and electricity.
+            for 2-3 days. So this project is still in development due to
+            constant power outages.
           </b>
         </footer>
       </div>
