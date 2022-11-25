@@ -9,13 +9,12 @@ export default function Dictionary() {
 
   function handleResponse(response) {
     setDefinition(response.data[0]);
-    //console.log(response.data[0]);
+    console.log(response.data[0]);
     //console.log(response.data[0].meanings[0].definitions[0].definition);
   }
 
   function search(event) {
     event.preventDefault();
-    //alert(`Searching for ${keyword} definition`);
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
   }
