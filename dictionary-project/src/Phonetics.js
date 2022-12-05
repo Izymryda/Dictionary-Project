@@ -9,7 +9,7 @@ export default function Phonetics(props) {
         <ReactAudioPlayer
           src={props.phonetics.audio}
           controls
-          className="col-4"
+          className="col-7"
         />{" "}
         <span className="col">{props.phonetics.text}</span>
       </div>

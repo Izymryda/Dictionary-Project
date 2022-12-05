@@ -5,15 +5,18 @@ export default function Photos(props) {
   console.log(props.photos);
   if (props.photos) {
     return (
-      <section className="Photos row">
+      <section className="Photos row text-center">
         {props.photos.map(function (photo, index) {
           return (
-            <img
-              src={photo.src.tiny}
-              key={index}
-              alt={photo.alt}
-              className="col"
-            />
+            <div className="col" key={index}>
+              <a href={photo.url} target="_blank" rel="noreferrer">
+                <img
+                  src={photo.src.tiny}
+                  alt={photo.alt}
+                  className="img-fluid"
+                />
+              </a>
+            </div>
           );
         })}
       </section>
