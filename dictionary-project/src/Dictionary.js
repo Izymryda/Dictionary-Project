@@ -35,16 +35,16 @@ export default function Dictionary(props) {
       <div className="Dictionary">
         <section>
           <h1>What word do you want to look up?</h1>
-          <form onSubmit={handleSubmit} className="row">
+          <form onSubmit={handleSubmit} className="row justify-content-between">
             <input
               type="search"
               autoFocus={true}
               placeholder="Enter your word..."
               onChange={handleKeywordChange}
-              className="col-10"
+              className="col-9"
               defaultValue={props.defaultKeyword}
             />
-            <input type="submit" value="Search" className="col" />
+            <input type="submit" value="Search" className="col-2" />
             <br />
           </form>
           <div className="hint">
