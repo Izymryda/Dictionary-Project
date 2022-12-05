@@ -4,7 +4,7 @@ import Meaning from "./Meaning.js";
 import Phonetics from "./Phonetics.js";
 
 export default function Results(props) {
-  console.log(props.data.phonetic);
+  //console.log(props.data.phonetic);
   if (props.data) {
     if (props.data.phonetic != null) {
       return (

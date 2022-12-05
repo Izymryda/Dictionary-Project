@@ -13,6 +13,10 @@ export default function App() {
           <Dictionary defaultKeyword="Sunset" />
         </main>
         <footer className="App-footer">
+          <small>
+            Photos provided by <a href="https://www.pexels.com">Pexels</a>
+          </small>
+          <br />
           <small>Coded by Tania Slotvinska | </small>{" "}
           <a href="https://github.com/Izymryda/Dictionary-Project/tree/master/dictionary-project">
             GitHub
