@@ -56,7 +56,7 @@ export default function Dictionary(props) {
               className="col-9"
               defaultValue={props.defaultKeyword}
             />
-            <input type="submit" value="Search" className="col-2" />
+            <input type="submit" value="Search" className="col-2 but" />
             <br />
           </form>
           <div className="hint">
