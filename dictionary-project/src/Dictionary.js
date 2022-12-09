@@ -53,7 +53,7 @@ export default function Dictionary(props) {
               autoFocus={true}
               placeholder="Enter your word..."
               onChange={handleKeywordChange}
-              className="col-9"
+              className="col-9 srch"
               defaultValue={props.defaultKeyword}
             />
             <input type="submit" value="Search" className="col-2 but" />

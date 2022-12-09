@@ -33,3 +33,73 @@
 .Dictionary .but {
   font-size: 14px;
 }
+
+@media (max-width: 420px) {
+  .Dictionary .but {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .Dictionary .srch {
+    max-width: 225px;
+  }
+  .Dictionary .but {
+    font-size: 9px;
+    padding: 6px 6px;
+  }
+  .Dictionary .hint {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .Dictionary section {
+    padding: 20px 25px;
+  }
+  .Dictionary .srch {
+    max-width: 200px;
+  }
+  .Dictionary .but {
+    font-size: 9px;
+    padding: 6px 6px;
+  }
+  .Dictionary .hint {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .Dictionary input {
+    padding: 3px 10px;
+  }
+  .Dictionary .srch {
+    max-width: 165px;
+  }
+  .Dictionary .but {
+    font-size: 9px;
+    padding: 3px 6px;
+  }
+  .Dictionary .hint {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 300px) {
+  .Dictionary section {
+    padding: 15px 15px;
+  }
+  .Dictionary input {
+    padding: 3px 10px;
+  }
+  .Dictionary .srch {
+    max-width: 150px;
+  }
+  .Dictionary .but {
+    font-size: 8px;
+    padding: 3px 6px;
+  }
+  .Dictionary .hint {
+    font-size: 8px;
+  }
+}
